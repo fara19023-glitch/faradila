@@ -1,0 +1,48 @@
+ html {
+        scroll-behavior: smooth;
+    }
+ body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background: #37AFE1;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #F7F1DE;
+            font-weight: bold;
+        }
+        nav {
+            background: #37AFE1;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #37AFE1;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        section {
+            margin-top: 30px;
+        }
+        .penjelasan {
+            background: #A8F1FF;
+            padding: 10px;
+            border-left: 4px solid #4a90e2;
+            border-radius: 5px;
+            margin-top: 10px;
+        }

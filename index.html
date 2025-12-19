@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Praktik HTML Lanjutan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background: #37AFE1;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #F7F1DE;
+            font-weight: bold;
+        }
+        nav {
+            background: #37AFE1;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #37AFE1;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        section {
+            margin-top: 30px;
+        }
+        .penjelasan {
+            background: #A8F1FF;
+            padding: 10px;
+            border-left: 4px solid #4a90e2;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Halaman Web HTML Lanjutan</h1>
+    </header>
+    <div class="penjelasan">
+        Header digunakan untuk menampilkan judul atau identitas utama halaman. Bagian ini membantu pengguna mengenali konteks halaman sejak pertama kali membuka. Header juga dapat membantu pengguna memahami tema halaman secara cepat dan meningkatkan navigasi awal.
+    </div>
+
+    <!-- NAVBAR -->
+    <section id="beranda">
+        <h2>Navigasi (Navbar)</h2>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#Audio">Audio</a>
+            <a href="#Video">Video</a>
+			<a href="#Iframe">Iframe</a>
+			<a href="#Marquee">Marquee</a>
+			<a href="#Tabel">Tabel</a>
+        </nav>
+        <div class="penjelasan">
+            Navbar berfungsi sebagai menu navigasi untuk memudahkan pengunjung berpindah antarbagian dalam halaman. Elemen ini meningkatkan pengalaman pengguna agar lebih mudah menemukan informasi. Navbar horizontal menyediakan tautan navigasi ke berbagai bagian halaman, seperti Beranda atau Kontak. Ini meningkatkan kemudahan penggunaan dengan memungkinkan lompatan cepat antar konten. Dalam konteks web, navbar yang responsif dan intuitif sangat penting untuk pengalaman pengguna yang baik, terutama pada situs dengan banyak informasi.
+        </div>
+    </section>
+
+    <!-- AUDIO -->
+    <section id="Audio">
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="D:\SEMESTER 7\design web\HTML LANJUTAN\Audio.opus" type="audio/mpeg" />
+        </audio>
+        <div class="penjelasan">
+            Elemen audio memungkinkan halaman memutar suara atau musik langsung dari browser. Elemen audio memungkinkan penyisipan file suara langsung ke halaman web dengan kontrol seperti play, pause, dan volume. digunakan untuk menambahkan konten multimedia agar halaman web lebih interaktif dan menarik
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="Video">
+        <h2>Video Player</h2>
+        <video width="400" controls>
+            <source src="D:\SEMESTER 7\design web\HTML LANJUTAN\WhatsApp Video 2025-11-16 at 22.59.10_631300f6.mp4" type="video/mp4" />
+        </video>
+        <div class="penjelasan">
+            Elemen video digunakan untuk menampilkan konten visual seperti tutorial atau informasi multimedia. Fitur kontrol memudahkan pengguna mengatur pemutaran video, dan memungkinkan untuk penyisipan video langsung di halaman web dengan kontrol pemutaran yang proporsional.
+        </div>
+    </section>
+
+    <!-- IFRAME -->
+    <section id="Iframe">
+        <h2>Iframe</h2>
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15956.883184030194!2d100.34253916339864!3d-0.9916177434900592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4bb8fd5268b13%3A0xa991ccf7184d219b!2sPantai%20Air%20Manis!5e0!3m2!1sen!2sid!4v1763310072704!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<div class="penjelasan">
+            Iframe memungkinkan konten eksternal seperti video YouTube atau peta yang dimuat langsung di halaman. Ini memungkinkan integrasi konten eksternal tanpa mengalihkan pengguna dari situs utama. Dalam pengembangan web, iframe berguna untuk memperkaya halaman dengan media interaktif, meningkatkan fungsionalitas tanpa kompleksitas tambahan.
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section id="Marquee"> 
+	<style="background-color: #78C841">
+        <h2>Teks Bergerak (Marquee)</h2>
+        <marquee style="background-color: #37AFE1; color: white; padding: 10px; font-weight: bold;" behavior="scroll" direction="left">✨ Selamat datang di Pantai Air Manis — Surga Pantai di Kota Padang ✨</marquee>
+        <div class="penjelasan">
+            Marquee digunakan untuk menampilkan teks berjalan yang menarik perhatian. Marquee membuat teks bergerak secara horizontal atau vertikal, sering digunakan untuk menyoroti informasi penting. Ini menambah elemen dinamis pada halaman. Dalam konteks web, marquee dapat digunakan untuk pengumuman atau iklan, namun harus digunakan bijak agar tidak mengganggu pengalaman pengguna.
+        </div>
+    </section>
+
+    <!-- TABEL -->
+    <section id="Tabel">
+        <h2>Tabel Informasi</h2>
+        <table>
+            <tr style="background-color: #37AFE1;">
+                <th>No</th>
+                <th>Nama</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ani</td>
+                <td>Penjual Makanan</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Budi</td>
+                <td>Petugas Pantai</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cici</td>
+                <td>Pengunjung</td>
+            </tr>
+        </table>
+        <div class="penjelasan">
+            Tabel menampilkan data dalam bentuk baris dan kolom agar lebih terstruktur dan mudah dibaca. Tabel digunakan untuk menampilkan data terstruktur dalam baris dan kolom, dengan border-collapse untuk tampilan rapi. Ini membantu menyajikan informasi seperti daftar atau statistik dengan jelas. Dalam pengembangan web, tabel meningkatkan keterbacaan data dan memudahkan analisis, terutama untuk konten informatif seperti laporan atau katalog.
+        </div>
+    </section>
+	
+</body>
+</html>
